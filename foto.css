@@ -1,0 +1,162 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: grey;
+    height: 155px;
+}
+
+.imagem{
+    height: 150px;
+    position: relative;
+    left: 620px;
+}
+
+.navegação{
+    position: absolute;
+    top: 80px;
+    left: 700px;
+    padding: 0px 80px 40px;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    padding:  20px;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+a:hover{
+
+    color: orange;
+}
+
+main{
+    background: orange;
+}
+
+.ul {
+    width: 940px;
+    margin: 0 auto;
+	padding: 50px 0;
+}
+
+
+    
+ .ul li{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    left: 0px;
+	width: 30%;
+    height: 500px;
+	vertical-align: top;
+    margin: 0px 1.5%;
+	box-sizing: border-box;
+	border-color: #000000;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+li {
+    position: relative;
+    right: 200px;
+}
+
+.ul li:hover{
+    border-color: white;
+}
+
+.ul li:active {
+	border-color: #088C19;
+}
+
+.ul li:hover h2 {
+    font-size: 30px; 
+}
+
+.ul h2 {
+    font-size: 24px;
+	font-weight: bold;
+	padding: 4px;
+}
+
+.h2 {
+    position: relative;
+    top: -10px;
+}
+
+
+.p2 ,.p1, .p{
+	font-size: 18px;
+	font-weight: bold;
+    padding: 4px;
+}
+
+.p1 {
+    position: relative;
+    top: -26px;
+}
+
+.p {
+    position: relative;
+    top: 70px;
+}
+
+.p2 {
+    position: relative;
+    top: 47px;
+}
+
+li  img {
+    width: 240px;
+    height: 250px; 
+    
+}
+
+.img {
+    position: relative;
+    width: 300px;
+    height: 320px;
+    top: -8px;
+    right: 10px;
+}
+
+.img2 {
+    position: relative;
+    top: 20px;
+}
+
+.pedalada{
+    position: relative;
+    top: 45px;
+}
+
+
+footer {
+    background: url("bg.jpg");
+    text-align: center;
+    position: relative;
+    padding: 40px 0;
+    
+
+}
+
+
+.alogo {
+    height: 200px;  
+}
+
+.paragrafo,.Copyright {
+    color: white;
+    font-size: 13px;
+}
+    
+
